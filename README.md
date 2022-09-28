@@ -27,7 +27,7 @@ npm install fetch-to-curl
 
 ```js
 import fetchToCurl from 'fetch-to-curl';
-// or In case there is no support for Es Modules in your environment:
+// or in case there is no support for ES modules in your environment:
 // const { fetchToCurl } = require("fetch-to-curl")
 
 const url = 'https://jsonplaceholder.typicode.com/posts/1';
@@ -37,7 +37,7 @@ const options = {
   },
   method: 'get'
 };
-// Log yopur request
+// Log your request
 console.log(fetchToCurl(url, options));
 // Do your request
 fetch(url, options);
